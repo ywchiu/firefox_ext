@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM
+  "chrome://sample/locale/tutorial2_locale.dtd">
+  
+<overlay id="Scrapper-Overlay" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://sample/content/stylebar.js" ></script>		 
+
+	<stringbundleset id="stringbundleset">
+    <stringbundle id="xulschoolhello-string-bundle"
+      src="chrome://sample/locale/tutorial2_locale.properties" />
+	</stringbundleset>
+  
+  <menupopup id="menu_ToolsPopup">
+    <menu id="xulschoolhello-hello-menu" label="&xulschoolhello.hello.label;"
+      accesskey="&xulschoolhello.helloMenu.accesskey;"
+      insertbefore="devToolsEndSeparator">
+      <menupopup>
+        <menuitem id="xulschoolhello-hello-menu-item"
+          label="&xulschoolhello.hello.label;"
+          accesskey="&xulschoolhello.helloItem.accesskey;"
+          oncommand="StyleBarSearch(event);" />
+      </menupopup>
+    </menu>
+  </menupopup>
+
+</overlay>

@@ -1,0 +1,6 @@
+content sample content/
+locale  sample  en-US         locale/en-US/
+overlay chrome://browser/content/browser.xul         chrome://sample/content/browser.xul
+
+skin    sample classic/1.0 skin/
+style   chrome://global/content/customizeToolbar.xul chrome://sample/skin/toolbar.css

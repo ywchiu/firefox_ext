@@ -1,4 +1,7 @@
-firefox_ext
+Firefox Extension Development
 ===========
 
-Firefox Extension
+Slideshare: https://www.slideshare.net/secret/366jljyyffMLMy
+
+Password: ezprice
+

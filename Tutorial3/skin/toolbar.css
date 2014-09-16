@@ -1,0 +1,7 @@
+#yourextname_toolbar_button {
+    list-style-image:url(chrome://sample/skin/ez1.png);
+}
+
+toolbar[iconsize="small"] #yourextname_toolbar_button {
+    list-style-image:url(chrome://sample/skin/ez1.png);
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://sample/skin/toolbar.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM
+  "chrome://sample/locale/tutorial2_locale.dtd">
+  
+<overlay id="Scrapper-Overlay" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://sample/content/jquery.js" />	 
+	<script type="application/x-javascript" src="chrome://sample/content/stylebar.js" ></script>		 
+
+    <popupset>
+        <panel id="yourextname_popup" noautohide="false" noautofocus="true">
+            <label control="vvvname" value="Name:"/><textbox id="vvvname"/>
+        </panel>
+    </popupset>
+	
+	<toolbox id="navigator-toolbox">		 
+	 <toolbar id="StyleBarToolbar" toolbarname="Style">
+			<toolbarbutton id="yourextname_toolbar_button"
+	    oncommand="getBox(event);"/>
+	 </toolbar>
+	</toolbox>
+	
+
+
+</overlay>
