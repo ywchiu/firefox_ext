@@ -15,7 +15,7 @@
   <menupopup id="menu_ToolsPopup">
     <menu id="xulschoolhello-hello-menu" label="&xulschoolhello.hello.label;"
       accesskey="&xulschoolhello.helloMenu.accesskey;"
-      insertbefore="devToolsEndSeparator">
+      insertbefore="troubleShooting">
       <menupopup>
         <menuitem id="xulschoolhello-hello-menu-item"
           label="&xulschoolhello.hello.label;"

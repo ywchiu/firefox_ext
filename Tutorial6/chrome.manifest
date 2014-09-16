@@ -1,0 +1,6 @@
+content   tutorialhello              chrome/content/
+skin      tutorialhello  classic/1.0 chrome/skin/
+locale    tutorialhello  en-US       chrome/locale/en-US/
+resource  tutorialhello              modules/
+
+overlay chrome://browser/content/browser.xul  chrome://tutorialhello/content/browserOverlay.xul

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://tutorialhello/skin/browserOverlay.css" ?>
+
+<!DOCTYPE overlay SYSTEM
+  "chrome://tutorialhello/locale/browserOverlay.dtd">
+
+<overlay id="xulschoolhello-browser-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript"
+    src="chrome://tutorialhello/content/browserOverlay.js" />
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="tutorialhello-string-bundle"
+      src="chrome://tutorialhello/locale/browserOverlay.properties" />
+  </stringbundleset>
+
+  <menupopup id="menu_ToolsPopup">
+    <menu id="xs-hw-hello-menu" label="HelloWorld"
+      accesskey="M"
+      insertafter="javascriptConsole,devToolsSeparator">
+      <menupopup>
+        <menuitem id="tutorialhello-hello-menu-item"
+          label="HelloWorld"
+          accesskey="L"
+          oncommand="Tutorial.BrowserOverlay.sayHello(event);" />
+      </menupopup>
+    </menu>
+  </menupopup>
+</overlay>
